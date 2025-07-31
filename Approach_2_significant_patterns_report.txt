@@ -1,0 +1,997 @@
+File Description:
+This file lists EEG signal patterns identified during a comparison between the ADHD and CONTROL groups. Each entry describes a unique 5-label pattern observed on a specific EEG channel, showing a significant difference in occurrence between the two groups. Only patterns with a percentage gap (GAP) of at least 10% are included, which may suggest group-specific characteristics.
+
+ How to read:
+- Group A – The group where the pattern is primarily observed
+- Group B – The comparison group
+- GAP – The absolute difference in occurrence rates between the two groups
+- Channel – EEG channel number where the pattern was found
+- Labels – The sequence of EEG frequency band labels (e.g., δ, θ, α)
+
+ Example:
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #790 (Channel 12): Labels = δ, δ, δ, δ, α | Group A: 80.0% vs Group B: 65.57% → GAP = 14.43%
+
+ Meaning:
+The pattern (δ, δ, δ, δ, α) was found on EEG channel 12. It appeared in 80% of CONTROL subjects and in 65.57% of ADHD subjects on that specific channel, showing a 14.43% gap. This suggests it may be more characteristic of the CONTROL group in that region.
+=========================================================
+
+Significant EEG Patterns with GAP >= 10%:
+
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #13 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #16 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #21 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #22 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #27 (Channel 0): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #41 (Channel 1): Labels = δ, δ, α | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #48 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #74 (Channel 2): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #81 (Channel 2): Labels = α, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #83 (Channel 2): Labels = δ, α, δ | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #85 (Channel 2): Labels = θ, θ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #104 (Channel 3): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 65.0% → GAP = 18.6%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #108 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #127 (Channel 4): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #154 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #158 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #161 (Channel 5): Labels = δ, θ, α | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #185 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #208 (Channel 7): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 65.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #216 (Channel 7): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #231 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #239 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #240 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #241 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #257 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #265 (Channel 9): Labels = δ, θ, α | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #266 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #268 (Channel 9): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #291 (Channel 10): Labels = β, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #295 (Channel 10): Labels = δ, θ, θ | Group A: 82.0% vs Group B: 93.33% → GAP = 11.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #304 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #305 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #314 (Channel 11): Labels = θ, α, δ | Group A: 82.0% vs Group B: 58.33% → GAP = 23.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #315 (Channel 11): Labels = α, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #316 (Channel 11): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #318 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #323 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #324 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #325 (Channel 12): Labels = α, δ, θ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #331 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #340 (Channel 12): Labels = α, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #343 (Channel 12): Labels = α, θ, θ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #344 (Channel 12): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #346 (Channel 12): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #348 (Channel 12): Labels = θ, θ, α | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #407 (Channel 15): Labels = α, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #415 (Channel 15): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #417 (Channel 15): Labels = δ, δ, β | Group A: 80.3% vs Group B: 51.67% → GAP = 28.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #418 (Channel 15): Labels = δ, θ, α | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #420 (Channel 15): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #438 (Channel 16): Labels = δ, δ, α | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #474 (Channel 18): Labels = θ, δ, α | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #476 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #486 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #492 (Channel 18): Labels = δ, α, δ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth80.npy] Pattern #493 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #12 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #13 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #16 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #17 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #35 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #81 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #111 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #114 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #131 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #160 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #165 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #166 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #167 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #179 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #184 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #208 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #209 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #218 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #223 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #224 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #230 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #321 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #330 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl100_opm100_sth90.npy] Pattern #335 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #13 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #16 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #21 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #22 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #27 (Channel 0): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #41 (Channel 1): Labels = δ, δ, α | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #48 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #74 (Channel 2): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #81 (Channel 2): Labels = α, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #83 (Channel 2): Labels = δ, α, δ | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #85 (Channel 2): Labels = θ, θ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #104 (Channel 3): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 65.0% → GAP = 18.6%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #108 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #127 (Channel 4): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #154 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #158 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #161 (Channel 5): Labels = δ, θ, α | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #185 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #208 (Channel 7): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 65.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #216 (Channel 7): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #231 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #239 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #240 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #241 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #257 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #265 (Channel 9): Labels = δ, θ, α | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #266 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #268 (Channel 9): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #291 (Channel 10): Labels = β, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #295 (Channel 10): Labels = δ, θ, θ | Group A: 82.0% vs Group B: 93.33% → GAP = 11.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #304 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #305 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #314 (Channel 11): Labels = θ, α, δ | Group A: 82.0% vs Group B: 58.33% → GAP = 23.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #315 (Channel 11): Labels = α, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #316 (Channel 11): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #318 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #323 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #324 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #325 (Channel 12): Labels = α, δ, θ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #331 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #340 (Channel 12): Labels = α, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #343 (Channel 12): Labels = α, θ, θ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #344 (Channel 12): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #346 (Channel 12): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #348 (Channel 12): Labels = θ, θ, α | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #407 (Channel 15): Labels = α, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #415 (Channel 15): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #417 (Channel 15): Labels = δ, δ, β | Group A: 80.3% vs Group B: 51.67% → GAP = 28.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #418 (Channel 15): Labels = δ, θ, α | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #420 (Channel 15): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #438 (Channel 16): Labels = δ, δ, α | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #474 (Channel 18): Labels = θ, δ, α | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #476 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #486 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #492 (Channel 18): Labels = δ, α, δ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth80.npy] Pattern #493 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #12 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #13 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #16 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #17 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #35 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #81 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #111 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #114 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #131 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #160 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #165 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #166 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #167 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #179 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #184 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #208 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #209 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #218 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #223 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #224 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #230 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #321 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #330 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl80_opm80_sth90.npy] Pattern #335 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #13 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #16 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #21 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #22 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #27 (Channel 0): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #41 (Channel 1): Labels = δ, δ, α | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #48 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #74 (Channel 2): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #81 (Channel 2): Labels = α, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #83 (Channel 2): Labels = δ, α, δ | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #85 (Channel 2): Labels = θ, θ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #104 (Channel 3): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 65.0% → GAP = 18.6%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #108 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #127 (Channel 4): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #154 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #158 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #161 (Channel 5): Labels = δ, θ, α | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #185 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #208 (Channel 7): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 65.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #216 (Channel 7): Labels = δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #231 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #239 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #240 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #241 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #257 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #265 (Channel 9): Labels = δ, θ, α | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #266 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #268 (Channel 9): Labels = θ, θ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #291 (Channel 10): Labels = β, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #295 (Channel 10): Labels = δ, θ, θ | Group A: 82.0% vs Group B: 93.33% → GAP = 11.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #304 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #305 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #314 (Channel 11): Labels = θ, α, δ | Group A: 82.0% vs Group B: 58.33% → GAP = 23.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #315 (Channel 11): Labels = α, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #316 (Channel 11): Labels = δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #318 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #323 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #324 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #325 (Channel 12): Labels = α, δ, θ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #331 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #340 (Channel 12): Labels = α, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #343 (Channel 12): Labels = α, θ, θ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #344 (Channel 12): Labels = θ, θ, θ | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #346 (Channel 12): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #348 (Channel 12): Labels = θ, θ, α | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #407 (Channel 15): Labels = α, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #415 (Channel 15): Labels = δ, α, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #417 (Channel 15): Labels = δ, δ, β | Group A: 80.3% vs Group B: 51.67% → GAP = 28.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #418 (Channel 15): Labels = δ, θ, α | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #420 (Channel 15): Labels = δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #438 (Channel 16): Labels = δ, δ, α | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #474 (Channel 18): Labels = θ, δ, α | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #476 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #486 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #492 (Channel 18): Labels = δ, α, δ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth80.npy] Pattern #493 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #12 (Channel 0): Labels = θ, θ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #13 (Channel 0): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #16 (Channel 0): Labels = θ, α, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #17 (Channel 0): Labels = δ, θ, α | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #35 (Channel 1): Labels = θ, δ, α | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #81 (Channel 3): Labels = θ, δ, α | Group A: 95.1% vs Group B: 78.33% → GAP = 16.77%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #111 (Channel 5): Labels = θ, θ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #114 (Channel 5): Labels = θ, δ, θ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #131 (Channel 6): Labels = θ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #160 (Channel 8): Labels = θ, δ, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #165 (Channel 8): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #166 (Channel 8): Labels = δ, θ, θ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #167 (Channel 8): Labels = θ, θ, δ | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #179 (Channel 9): Labels = θ, δ, θ | Group A: 98.4% vs Group B: 85.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #184 (Channel 9): Labels = θ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #208 (Channel 11): Labels = δ, δ, α | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #209 (Channel 11): Labels = δ, α, δ | Group A: 90.2% vs Group B: 73.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #218 (Channel 12): Labels = α, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #223 (Channel 12): Labels = δ, θ, α | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #224 (Channel 12): Labels = θ, α, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #230 (Channel 12): Labels = α, θ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #321 (Channel 18): Labels = α, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #330 (Channel 18): Labels = α, θ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_3pattern_lbl90_opm90_sth90.npy] Pattern #335 (Channel 18): Labels = α, δ, δ | Group A: 98.4% vs Group B: 86.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #5 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #7 (Channel 0): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #9 (Channel 0): Labels = δ, θ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #14 (Channel 0): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #17 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #19 (Channel 0): Labels = δ, θ, δ, θ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #20 (Channel 0): Labels = θ, δ, δ, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #21 (Channel 0): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #25 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #28 (Channel 1): Labels = θ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #37 (Channel 1): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #40 (Channel 1): Labels = θ, θ, δ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #45 (Channel 2): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #48 (Channel 2): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #49 (Channel 2): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #50 (Channel 2): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #53 (Channel 2): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #57 (Channel 2): Labels = δ, δ, α, θ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #60 (Channel 2): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #67 (Channel 3): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #72 (Channel 3): Labels = δ, δ, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #74 (Channel 3): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #76 (Channel 3): Labels = θ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #85 (Channel 4): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #95 (Channel 5): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #101 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #102 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #105 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #112 (Channel 6): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #122 (Channel 7): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #125 (Channel 7): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #131 (Channel 7): Labels = δ, δ, δ, α | Group A: 88.5% vs Group B: 63.33% → GAP = 25.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #142 (Channel 8): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #146 (Channel 8): Labels = δ, δ, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #149 (Channel 8): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #152 (Channel 8): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #160 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #161 (Channel 9): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #163 (Channel 9): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #167 (Channel 9): Labels = δ, δ, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #174 (Channel 10): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #209 (Channel 11): Labels = δ, δ, δ, α | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #210 (Channel 12): Labels = δ, θ, δ, δ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #212 (Channel 12): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 56.67% → GAP = 23.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #221 (Channel 12): Labels = δ, δ, α, θ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #223 (Channel 12): Labels = θ, α, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #225 (Channel 12): Labels = δ, θ, δ, θ | Group A: 88.5% vs Group B: 65.0% → GAP = 23.5%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #226 (Channel 12): Labels = δ, θ, θ, δ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #250 (Channel 15): Labels = δ, δ, δ, α | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #263 (Channel 15): Labels = δ, δ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #265 (Channel 15): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #268 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #281 (Channel 16): Labels = δ, δ, δ, α | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #282 (Channel 16): Labels = α, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #292 (Channel 16): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #293 (Channel 16): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #298 (Channel 17): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #302 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #308 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #315 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #318 (Channel 18): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #319 (Channel 18): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #321 (Channel 18): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth80.npy] Pattern #323 (Channel 18): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #3 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #7 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #31 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #44 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #72 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl100_opm100_sth90.npy] Pattern #87 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #5 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #7 (Channel 0): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #9 (Channel 0): Labels = δ, θ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #14 (Channel 0): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #17 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #19 (Channel 0): Labels = δ, θ, δ, θ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #20 (Channel 0): Labels = θ, δ, δ, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #21 (Channel 0): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #25 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #28 (Channel 1): Labels = θ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #37 (Channel 1): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #40 (Channel 1): Labels = θ, θ, δ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #45 (Channel 2): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #48 (Channel 2): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #49 (Channel 2): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #50 (Channel 2): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #53 (Channel 2): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #57 (Channel 2): Labels = δ, δ, α, θ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #60 (Channel 2): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #67 (Channel 3): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #72 (Channel 3): Labels = δ, δ, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #74 (Channel 3): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #76 (Channel 3): Labels = θ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #85 (Channel 4): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #95 (Channel 5): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #101 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #102 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #105 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #112 (Channel 6): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #122 (Channel 7): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #125 (Channel 7): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #131 (Channel 7): Labels = δ, δ, δ, α | Group A: 88.5% vs Group B: 63.33% → GAP = 25.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #142 (Channel 8): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #146 (Channel 8): Labels = δ, δ, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #149 (Channel 8): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #152 (Channel 8): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #160 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #161 (Channel 9): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #163 (Channel 9): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #167 (Channel 9): Labels = δ, δ, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #174 (Channel 10): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #209 (Channel 11): Labels = δ, δ, δ, α | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #210 (Channel 12): Labels = δ, θ, δ, δ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #212 (Channel 12): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 56.67% → GAP = 23.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #221 (Channel 12): Labels = δ, δ, α, θ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #223 (Channel 12): Labels = θ, α, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #225 (Channel 12): Labels = δ, θ, δ, θ | Group A: 88.5% vs Group B: 65.0% → GAP = 23.5%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #226 (Channel 12): Labels = δ, θ, θ, δ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #250 (Channel 15): Labels = δ, δ, δ, α | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #263 (Channel 15): Labels = δ, δ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #265 (Channel 15): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #268 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #281 (Channel 16): Labels = δ, δ, δ, α | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #282 (Channel 16): Labels = α, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #292 (Channel 16): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #293 (Channel 16): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #298 (Channel 17): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #302 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #308 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #315 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #318 (Channel 18): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #319 (Channel 18): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #321 (Channel 18): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth80.npy] Pattern #323 (Channel 18): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #3 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #7 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #31 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #44 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #72 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl80_opm80_sth90.npy] Pattern #87 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #5 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #7 (Channel 0): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #9 (Channel 0): Labels = δ, θ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #14 (Channel 0): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #17 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #19 (Channel 0): Labels = δ, θ, δ, θ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #20 (Channel 0): Labels = θ, δ, δ, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #21 (Channel 0): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #25 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #28 (Channel 1): Labels = θ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #37 (Channel 1): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #38 (Channel 1): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #40 (Channel 1): Labels = θ, θ, δ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #45 (Channel 2): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #48 (Channel 2): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #49 (Channel 2): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #50 (Channel 2): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #53 (Channel 2): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #57 (Channel 2): Labels = δ, δ, α, θ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #60 (Channel 2): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #67 (Channel 3): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #72 (Channel 3): Labels = δ, δ, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #74 (Channel 3): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #76 (Channel 3): Labels = θ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #85 (Channel 4): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #95 (Channel 5): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #101 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #102 (Channel 5): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #105 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #112 (Channel 6): Labels = δ, δ, δ, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #122 (Channel 7): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #125 (Channel 7): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #131 (Channel 7): Labels = δ, δ, δ, α | Group A: 88.5% vs Group B: 63.33% → GAP = 25.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #142 (Channel 8): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #146 (Channel 8): Labels = δ, δ, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #149 (Channel 8): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #152 (Channel 8): Labels = δ, θ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #160 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #161 (Channel 9): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #163 (Channel 9): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #167 (Channel 9): Labels = δ, δ, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #174 (Channel 10): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #209 (Channel 11): Labels = δ, δ, δ, α | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #210 (Channel 12): Labels = δ, θ, δ, δ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #212 (Channel 12): Labels = δ, δ, θ, α | Group A: 80.3% vs Group B: 56.67% → GAP = 23.63%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #221 (Channel 12): Labels = δ, δ, α, θ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #223 (Channel 12): Labels = θ, α, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #225 (Channel 12): Labels = δ, θ, δ, θ | Group A: 88.5% vs Group B: 65.0% → GAP = 23.5%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #226 (Channel 12): Labels = δ, θ, θ, δ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #250 (Channel 15): Labels = δ, δ, δ, α | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #263 (Channel 15): Labels = δ, δ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #265 (Channel 15): Labels = θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #268 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #281 (Channel 16): Labels = δ, δ, δ, α | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #282 (Channel 16): Labels = α, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #292 (Channel 16): Labels = δ, δ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #293 (Channel 16): Labels = θ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #298 (Channel 17): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #302 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #308 (Channel 17): Labels = δ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #315 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #318 (Channel 18): Labels = δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #319 (Channel 18): Labels = θ, θ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #321 (Channel 18): Labels = δ, δ, δ, δ | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth80.npy] Pattern #323 (Channel 18): Labels = δ, δ, θ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #3 (Channel 0): Labels = δ, δ, δ, θ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #7 (Channel 0): Labels = θ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #31 (Channel 5): Labels = θ, θ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #44 (Channel 9): Labels = θ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #72 (Channel 15): Labels = θ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_4pattern_lbl90_opm90_sth90.npy] Pattern #87 (Channel 18): Labels = δ, θ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #1 (Channel 0): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #4 (Channel 3): Labels = δ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #5 (Channel 3): Labels = θ, δ, δ, δ, δ | Group A: 85.2% vs Group B: 66.67% → GAP = 18.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #7 (Channel 7): Labels = δ, δ, δ, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #8 (Channel 7): Labels = δ, δ, δ, θ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #21 (Channel 18): Labels = θ, δ, δ, δ, δ | Group A: 88.5% vs Group B: 75.0% → GAP = 13.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl100_opm100_sth80.npy] Pattern #23 (Channel 18): Labels = δ, δ, δ, δ, θ | Group A: 86.9% vs Group B: 65.0% → GAP = 21.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #13 (Channel 0): Labels = δ, δ, δ, β, θ | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #18 (Channel 0): Labels = θ, θ, δ, δ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #21 (Channel 0): Labels = δ, δ, δ, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #24 (Channel 0): Labels = δ, δ, α, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #25 (Channel 0): Labels = δ, α, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #29 (Channel 0): Labels = δ, δ, α, θ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #37 (Channel 0): Labels = δ, δ, δ, α, δ | Group A: 88.5% vs Group B: 75.0% → GAP = 13.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #39 (Channel 0): Labels = α, δ, δ, δ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #40 (Channel 0): Labels = θ, θ, θ, δ, δ | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #43 (Channel 0): Labels = θ, α, δ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #46 (Channel 0): Labels = δ, δ, θ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #51 (Channel 0): Labels = θ, θ, δ, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #53 (Channel 0): Labels = θ, δ, δ, θ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #59 (Channel 0): Labels = δ, δ, δ, θ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #67 (Channel 0): Labels = δ, δ, δ, β, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #69 (Channel 0): Labels = δ, θ, δ, δ, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #74 (Channel 0): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #75 (Channel 0): Labels = β, δ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #76 (Channel 0): Labels = δ, δ, θ, θ, α | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #77 (Channel 0): Labels = δ, δ, δ, α, α | Group A: 85.2% vs Group B: 66.67% → GAP = 18.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #78 (Channel 0): Labels = θ, δ, δ, θ, θ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #84 (Channel 0): Labels = δ, δ, δ, θ, θ | Group A: 83.6% vs Group B: 60.0% → GAP = 23.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #87 (Channel 0): Labels = δ, δ, θ, θ, β | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #89 (Channel 0): Labels = θ, γ, δ, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #104 (Channel 1): Labels = δ, δ, θ, δ, α | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #106 (Channel 1): Labels = δ, δ, δ, θ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #115 (Channel 1): Labels = δ, δ, δ, θ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #119 (Channel 1): Labels = δ, δ, θ, δ, β | Group A: 83.6% vs Group B: 65.0% → GAP = 18.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #139 (Channel 1): Labels = θ, θ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #143 (Channel 1): Labels = δ, δ, δ, θ, θ | Group A: 83.6% vs Group B: 95.0% → GAP = 11.4%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #149 (Channel 1): Labels = δ, δ, δ, δ, β | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #161 (Channel 2): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 50.0% → GAP = 32.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #163 (Channel 2): Labels = δ, δ, θ, δ, α | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #168 (Channel 2): Labels = δ, δ, δ, δ, α | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #171 (Channel 2): Labels = θ, δ, δ, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #175 (Channel 2): Labels = δ, δ, α, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #178 (Channel 2): Labels = δ, δ, δ, α, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #185 (Channel 2): Labels = δ, δ, δ, α, α | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #192 (Channel 2): Labels = δ, δ, θ, δ, θ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #195 (Channel 2): Labels = δ, δ, δ, δ, α | Group A: 88.5% vs Group B: 61.67% → GAP = 26.83%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #196 (Channel 2): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #198 (Channel 2): Labels = θ, δ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #204 (Channel 2): Labels = δ, δ, δ, δ, θ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #207 (Channel 2): Labels = δ, δ, δ, δ, θ | Group A: 83.6% vs Group B: 53.33% → GAP = 30.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #208 (Channel 2): Labels = δ, δ, α, θ, δ | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #213 (Channel 2): Labels = δ, δ, θ, α, θ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #214 (Channel 2): Labels = δ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #224 (Channel 2): Labels = δ, δ, θ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #227 (Channel 2): Labels = δ, δ, δ, δ, α | Group A: 85.2% vs Group B: 58.33% → GAP = 26.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #228 (Channel 2): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 53.33% → GAP = 28.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #229 (Channel 2): Labels = δ, δ, θ, δ, β | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #232 (Channel 2): Labels = δ, δ, δ, δ, β | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #233 (Channel 2): Labels = α, θ, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #238 (Channel 2): Labels = δ, δ, δ, δ, β | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #239 (Channel 2): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #240 (Channel 2): Labels = δ, δ, β, θ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #241 (Channel 2): Labels = δ, δ, δ, δ, γ | Group A: 82.0% vs Group B: 50.0% → GAP = 32.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #244 (Channel 3): Labels = δ, δ, δ, α, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #249 (Channel 3): Labels = θ, θ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #255 (Channel 3): Labels = δ, δ, γ, δ, δ | Group A: 85.2% vs Group B: 98.33% → GAP = 13.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #258 (Channel 3): Labels = β, δ, δ, δ, δ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #262 (Channel 3): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 95.0% → GAP = 11.4%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #265 (Channel 3): Labels = δ, δ, δ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #278 (Channel 3): Labels = δ, δ, δ, δ, α | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #280 (Channel 3): Labels = δ, δ, θ, δ, α | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #288 (Channel 3): Labels = δ, δ, θ, θ, θ | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #289 (Channel 3): Labels = δ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #290 (Channel 3): Labels = δ, δ, θ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #295 (Channel 3): Labels = δ, δ, θ, δ, β | Group A: 86.9% vs Group B: 65.0% → GAP = 21.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #298 (Channel 3): Labels = θ, α, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #307 (Channel 3): Labels = θ, β, δ, δ, δ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #309 (Channel 3): Labels = δ, δ, θ, θ, β | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #313 (Channel 3): Labels = γ, θ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #319 (Channel 4): Labels = δ, δ, δ, θ, δ | Group A: 80.3% vs Group B: 95.0% → GAP = 14.7%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #328 (Channel 4): Labels = θ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #330 (Channel 4): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #350 (Channel 4): Labels = δ, β, δ, δ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #356 (Channel 5): Labels = δ, δ, δ, θ, δ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #377 (Channel 5): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #378 (Channel 5): Labels = δ, δ, δ, δ, α | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #380 (Channel 5): Labels = δ, δ, δ, θ, θ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #387 (Channel 5): Labels = α, δ, δ, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #389 (Channel 5): Labels = δ, δ, θ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #390 (Channel 5): Labels = θ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #394 (Channel 5): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #403 (Channel 5): Labels = θ, δ, δ, δ, θ | Group A: 82.0% vs Group B: 93.33% → GAP = 11.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #415 (Channel 5): Labels = γ, θ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #423 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 95.0% → GAP = 13.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #424 (Channel 6): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 98.33% → GAP = 13.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #428 (Channel 6): Labels = δ, δ, θ, θ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #429 (Channel 6): Labels = θ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 95.0% → GAP = 13.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #440 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #442 (Channel 6): Labels = δ, θ, α, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #445 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 93.33% → GAP = 11.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #458 (Channel 6): Labels = β, δ, δ, δ, δ | Group A: 83.6% vs Group B: 96.67% → GAP = 13.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #462 (Channel 6): Labels = δ, α, δ, δ, θ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #467 (Channel 6): Labels = δ, δ, δ, δ, γ | Group A: 83.6% vs Group B: 95.0% → GAP = 11.4%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #468 (Channel 6): Labels = δ, δ, δ, γ, δ | Group A: 80.3% vs Group B: 95.0% → GAP = 14.7%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #477 (Channel 7): Labels = δ, δ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #479 (Channel 7): Labels = θ, α, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #481 (Channel 7): Labels = α, θ, δ, δ, δ | Group A: 93.4% vs Group B: 78.33% → GAP = 15.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #484 (Channel 7): Labels = δ, δ, δ, α, θ | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #488 (Channel 7): Labels = θ, θ, δ, δ, δ | Group A: 91.8% vs Group B: 78.33% → GAP = 13.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #491 (Channel 7): Labels = α, δ, δ, δ, θ | Group A: 88.5% vs Group B: 70.0% → GAP = 18.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #500 (Channel 7): Labels = θ, δ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #502 (Channel 7): Labels = θ, δ, δ, δ, θ | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #510 (Channel 7): Labels = δ, δ, δ, β, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #518 (Channel 7): Labels = θ, δ, δ, δ, α | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #521 (Channel 7): Labels = δ, δ, δ, δ, θ | Group A: 86.9% vs Group B: 68.33% → GAP = 18.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #523 (Channel 7): Labels = δ, δ, θ, δ, β | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #527 (Channel 7): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #539 (Channel 7): Labels = γ, δ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #541 (Channel 8): Labels = δ, δ, δ, θ, δ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #542 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #543 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #546 (Channel 8): Labels = δ, β, θ, δ, δ | Group A: 85.2% vs Group B: 50.0% → GAP = 35.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #551 (Channel 8): Labels = δ, α, θ, δ, δ | Group A: 82.0% vs Group B: 61.67% → GAP = 20.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #553 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #566 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #567 (Channel 8): Labels = δ, δ, δ, δ, α | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #572 (Channel 8): Labels = δ, δ, θ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #577 (Channel 8): Labels = δ, δ, δ, α, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #578 (Channel 8): Labels = δ, δ, α, θ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #581 (Channel 8): Labels = β, δ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #584 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #591 (Channel 8): Labels = θ, δ, δ, δ, α | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #593 (Channel 8): Labels = δ, δ, δ, δ, α | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #594 (Channel 8): Labels = α, θ, δ, δ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #595 (Channel 8): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #598 (Channel 8): Labels = δ, δ, θ, θ, δ | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #601 (Channel 8): Labels = δ, α, δ, δ, δ | Group A: 88.5% vs Group B: 75.0% → GAP = 13.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #602 (Channel 8): Labels = δ, α, δ, δ, δ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #606 (Channel 8): Labels = δ, δ, α, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #608 (Channel 8): Labels = δ, α, δ, δ, θ | Group A: 80.3% vs Group B: 55.0% → GAP = 25.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #616 (Channel 8): Labels = δ, δ, α, δ, δ | Group A: 85.2% vs Group B: 66.67% → GAP = 18.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #617 (Channel 8): Labels = θ, δ, δ, δ, β | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #618 (Channel 8): Labels = δ, δ, β, δ, δ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #620 (Channel 8): Labels = δ, θ, θ, δ, δ | Group A: 88.5% vs Group B: 65.0% → GAP = 23.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #622 (Channel 8): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #623 (Channel 8): Labels = δ, δ, δ, β, δ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #624 (Channel 8): Labels = δ, δ, δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #626 (Channel 8): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #628 (Channel 8): Labels = γ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #629 (Channel 8): Labels = δ, δ, δ, δ, β | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #630 (Channel 8): Labels = δ, δ, δ, δ, γ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #631 (Channel 8): Labels = δ, δ, δ, γ, δ | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #633 (Channel 8): Labels = δ, δ, δ, δ, γ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #646 (Channel 9): Labels = θ, β, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #658 (Channel 9): Labels = δ, δ, δ, δ, α | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #659 (Channel 9): Labels = δ, δ, δ, α, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #661 (Channel 9): Labels = θ, θ, δ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #663 (Channel 9): Labels = δ, δ, θ, θ, θ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #664 (Channel 9): Labels = δ, δ, θ, θ, α | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #665 (Channel 9): Labels = δ, δ, θ, θ, β | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #668 (Channel 9): Labels = δ, α, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #674 (Channel 9): Labels = θ, α, δ, δ, δ | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #676 (Channel 9): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #691 (Channel 9): Labels = γ, θ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #692 (Channel 9): Labels = β, δ, δ, δ, θ | Group A: 85.2% vs Group B: 71.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #706 (Channel 10): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #711 (Channel 10): Labels = θ, θ, δ, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #718 (Channel 10): Labels = δ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #725 (Channel 10): Labels = δ, θ, δ, δ, δ | Group A: 83.6% vs Group B: 68.33% → GAP = 15.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #730 (Channel 10): Labels = δ, δ, α, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #733 (Channel 10): Labels = θ, α, δ, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #741 (Channel 10): Labels = θ, β, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #748 (Channel 10): Labels = δ, δ, δ, δ, α | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #751 (Channel 10): Labels = δ, α, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #753 (Channel 10): Labels = δ, δ, δ, δ, β | Group A: 83.6% vs Group B: 65.0% → GAP = 18.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #759 (Channel 10): Labels = δ, β, δ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #760 (Channel 10): Labels = β, δ, δ, δ, δ | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #771 (Channel 11): Labels = δ, δ, δ, θ, θ | Group A: 85.2% vs Group B: 65.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #780 (Channel 11): Labels = δ, θ, δ, θ, δ | Group A: 82.0% vs Group B: 58.33% → GAP = 23.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #781 (Channel 11): Labels = θ, δ, δ, δ, δ | Group A: 88.5% vs Group B: 100.0% → GAP = 11.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #784 (Channel 11): Labels = δ, δ, θ, α, δ | Group A: 91.8% vs Group B: 75.0% → GAP = 16.8%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #790 (Channel 11): Labels = δ, δ, θ, δ, δ | Group A: 82.0% vs Group B: 95.0% → GAP = 13.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #792 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 96.67% → GAP = 13.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #811 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 96.67% → GAP = 14.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #820 (Channel 11): Labels = δ, δ, θ, β, δ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #823 (Channel 11): Labels = β, θ, δ, δ, δ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #826 (Channel 11): Labels = δ, δ, δ, δ, β | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #835 (Channel 11): Labels = α, θ, δ, δ, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #838 (Channel 11): Labels = δ, θ, δ, δ, θ | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #840 (Channel 11): Labels = δ, δ, δ, α, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #841 (Channel 11): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 93.33% → GAP = 13.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #863 (Channel 11): Labels = γ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 96.67% → GAP = 13.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #874 (Channel 12): Labels = θ, θ, θ, δ, δ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #875 (Channel 12): Labels = θ, θ, δ, δ, δ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #876 (Channel 12): Labels = δ, δ, δ, α, α | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #880 (Channel 12): Labels = θ, α, δ, δ, δ | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #881 (Channel 12): Labels = α, δ, δ, δ, θ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #883 (Channel 12): Labels = δ, δ, θ, δ, θ | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #888 (Channel 12): Labels = δ, δ, δ, δ, α | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #897 (Channel 12): Labels = α, δ, δ, θ, θ | Group A: 80.3% vs Group B: 50.0% → GAP = 30.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #907 (Channel 12): Labels = δ, α, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #908 (Channel 12): Labels = δ, δ, δ, β, θ | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #909 (Channel 12): Labels = α, θ, δ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #911 (Channel 12): Labels = δ, δ, θ, θ, β | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #913 (Channel 12): Labels = θ, δ, δ, δ, θ | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #914 (Channel 12): Labels = δ, δ, θ, θ, θ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #917 (Channel 12): Labels = θ, θ, δ, δ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #918 (Channel 12): Labels = θ, θ, δ, δ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #920 (Channel 12): Labels = θ, β, δ, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #922 (Channel 12): Labels = δ, δ, θ, δ, α | Group A: 91.8% vs Group B: 76.67% → GAP = 15.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #923 (Channel 12): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #924 (Channel 12): Labels = δ, δ, δ, β, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #926 (Channel 12): Labels = δ, δ, θ, δ, β | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #930 (Channel 12): Labels = δ, θ, δ, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #931 (Channel 12): Labels = δ, δ, β, δ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #932 (Channel 12): Labels = δ, δ, θ, θ, α | Group A: 88.5% vs Group B: 63.33% → GAP = 25.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #935 (Channel 12): Labels = δ, β, δ, δ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #940 (Channel 13): Labels = θ, θ, δ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #946 (Channel 13): Labels = δ, θ, δ, δ, θ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #956 (Channel 13): Labels = δ, δ, δ, δ, β | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #973 (Channel 13): Labels = θ, δ, δ, θ, δ | Group A: 82.0% vs Group B: 66.67% → GAP = 15.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #992 (Channel 14): Labels = δ, δ, δ, β, δ | Group A: 85.2% vs Group B: 96.67% → GAP = 11.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #993 (Channel 14): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1017 (Channel 14): Labels = δ, δ, δ, γ, δ | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1029 (Channel 15): Labels = δ, δ, δ, θ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1041 (Channel 15): Labels = δ, δ, δ, β, θ | Group A: 88.5% vs Group B: 68.33% → GAP = 20.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1059 (Channel 15): Labels = α, δ, δ, δ, δ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1068 (Channel 15): Labels = α, δ, δ, δ, θ | Group A: 85.2% vs Group B: 71.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1075 (Channel 15): Labels = θ, δ, δ, δ, θ | Group A: 91.8% vs Group B: 78.33% → GAP = 13.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1082 (Channel 15): Labels = δ, δ, δ, α, θ | Group A: 96.7% vs Group B: 75.0% → GAP = 21.7%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1089 (Channel 15): Labels = θ, δ, δ, δ, α | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1096 (Channel 15): Labels = δ, θ, β, δ, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1099 (Channel 15): Labels = δ, δ, δ, δ, α | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1107 (Channel 15): Labels = δ, δ, δ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1110 (Channel 15): Labels = θ, δ, δ, δ, β | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1111 (Channel 15): Labels = δ, δ, δ, δ, β | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1117 (Channel 15): Labels = δ, δ, δ, γ, θ | Group A: 82.0% vs Group B: 55.0% → GAP = 27.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1126 (Channel 15): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1130 (Channel 15): Labels = θ, δ, δ, δ, γ | Group A: 80.3% vs Group B: 61.67% → GAP = 18.63%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1133 (Channel 16): Labels = δ, δ, δ, δ, α | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1149 (Channel 16): Labels = δ, δ, θ, α, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1155 (Channel 16): Labels = δ, δ, δ, θ, γ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1159 (Channel 16): Labels = δ, δ, δ, θ, θ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1164 (Channel 16): Labels = δ, δ, θ, θ, β | Group A: 86.9% vs Group B: 73.33% → GAP = 13.57%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1165 (Channel 16): Labels = δ, α, δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1180 (Channel 16): Labels = β, δ, δ, δ, θ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1182 (Channel 16): Labels = δ, δ, δ, δ, θ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1183 (Channel 16): Labels = δ, δ, θ, θ, α | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1188 (Channel 16): Labels = α, θ, δ, δ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1192 (Channel 16): Labels = θ, δ, δ, δ, β | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1193 (Channel 16): Labels = δ, θ, δ, δ, θ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1206 (Channel 17): Labels = δ, δ, δ, δ, α | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1211 (Channel 17): Labels = δ, δ, δ, θ, θ | Group A: 85.2% vs Group B: 63.33% → GAP = 21.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1218 (Channel 17): Labels = δ, δ, δ, δ, α | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1219 (Channel 17): Labels = δ, δ, δ, δ, α | Group A: 86.9% vs Group B: 71.67% → GAP = 15.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1226 (Channel 17): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1234 (Channel 17): Labels = δ, δ, δ, δ, θ | Group A: 88.5% vs Group B: 71.67% → GAP = 16.83%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1243 (Channel 17): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1246 (Channel 17): Labels = θ, θ, δ, δ, θ | Group A: 80.3% vs Group B: 60.0% → GAP = 20.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1247 (Channel 17): Labels = δ, δ, δ, δ, α | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1251 (Channel 17): Labels = β, θ, δ, δ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1253 (Channel 17): Labels = δ, δ, δ, β, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1272 (Channel 18): Labels = θ, θ, δ, δ, θ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1275 (Channel 18): Labels = θ, δ, δ, δ, α | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1281 (Channel 18): Labels = δ, δ, α, θ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1283 (Channel 18): Labels = δ, δ, δ, θ, θ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1284 (Channel 18): Labels = δ, θ, α, δ, δ | Group A: 86.9% vs Group B: 70.0% → GAP = 16.9%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1285 (Channel 18): Labels = α, δ, δ, δ, θ | Group A: 90.2% vs Group B: 68.33% → GAP = 21.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1286 (Channel 18): Labels = δ, δ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1293 (Channel 18): Labels = θ, δ, δ, θ, δ | Group A: 82.0% vs Group B: 63.33% → GAP = 18.67%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1296 (Channel 18): Labels = δ, δ, θ, θ, α | Group A: 85.2% vs Group B: 73.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1297 (Channel 18): Labels = δ, δ, δ, α, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1301 (Channel 18): Labels = δ, δ, θ, θ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1306 (Channel 18): Labels = δ, δ, θ, δ, δ | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1307 (Channel 18): Labels = δ, δ, δ, θ, α | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1313 (Channel 18): Labels = δ, δ, θ, α, δ | Group A: 88.5% vs Group B: 73.33% → GAP = 15.17%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1315 (Channel 18): Labels = θ, δ, α, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1316 (Channel 18): Labels = δ, δ, θ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1323 (Channel 18): Labels = δ, δ, β, θ, δ | Group A: 85.2% vs Group B: 63.33% → GAP = 21.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1325 (Channel 18): Labels = δ, α, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1328 (Channel 18): Labels = γ, δ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #7 (Channel 0): Labels = θ, θ, δ, δ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #23 (Channel 0): Labels = β, δ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #24 (Channel 0): Labels = δ, δ, θ, θ, α | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #45 (Channel 2): Labels = θ, δ, δ, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #75 (Channel 3): Labels = β, δ, δ, δ, δ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #77 (Channel 3): Labels = δ, δ, δ, δ, θ | Group A: 90.2% vs Group B: 76.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #89 (Channel 3): Labels = γ, θ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #113 (Channel 5): Labels = α, δ, δ, δ, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #125 (Channel 7): Labels = α, θ, δ, δ, δ | Group A: 93.4% vs Group B: 78.33% → GAP = 15.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #128 (Channel 7): Labels = δ, δ, δ, α, θ | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #129 (Channel 7): Labels = θ, θ, δ, δ, δ | Group A: 91.8% vs Group B: 78.33% → GAP = 13.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #135 (Channel 7): Labels = θ, δ, δ, δ, δ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #142 (Channel 8): Labels = δ, δ, δ, θ, δ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #144 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #156 (Channel 8): Labels = δ, δ, δ, α, θ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #159 (Channel 8): Labels = β, δ, δ, δ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #162 (Channel 8): Labels = δ, δ, δ, δ, α | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #163 (Channel 8): Labels = α, θ, δ, δ, δ | Group A: 95.1% vs Group B: 81.67% → GAP = 13.43%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #168 (Channel 8): Labels = δ, δ, δ, γ, δ | Group A: 93.4% vs Group B: 81.67% → GAP = 11.73%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #175 (Channel 9): Labels = θ, θ, δ, δ, δ | Group A: 91.8% vs Group B: 81.67% → GAP = 10.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #191 (Channel 10): Labels = β, δ, δ, δ, δ | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #202 (Channel 11): Labels = δ, δ, θ, α, δ | Group A: 91.8% vs Group B: 75.0% → GAP = 16.8%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #218 (Channel 11): Labels = β, θ, δ, δ, δ | Group A: 90.2% vs Group B: 70.0% → GAP = 20.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #225 (Channel 11): Labels = α, θ, δ, δ, δ | Group A: 90.2% vs Group B: 75.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #227 (Channel 11): Labels = δ, δ, δ, α, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #243 (Channel 12): Labels = δ, δ, θ, δ, θ | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #256 (Channel 12): Labels = θ, δ, δ, δ, θ | Group A: 96.7% vs Group B: 83.33% → GAP = 13.37%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #258 (Channel 12): Labels = δ, δ, θ, δ, α | Group A: 91.8% vs Group B: 76.67% → GAP = 15.13%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #259 (Channel 12): Labels = δ, δ, δ, β, δ | Group A: 95.1% vs Group B: 85.0% → GAP = 10.1%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #299 (Channel 15): Labels = θ, δ, δ, δ, θ | Group A: 91.8% vs Group B: 78.33% → GAP = 13.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #304 (Channel 15): Labels = δ, δ, δ, α, θ | Group A: 96.7% vs Group B: 75.0% → GAP = 21.7%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #312 (Channel 15): Labels = δ, δ, δ, δ, α | Group A: 91.8% vs Group B: 73.33% → GAP = 18.47%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #313 (Channel 15): Labels = δ, δ, δ, δ, α | Group A: 93.4% vs Group B: 80.0% → GAP = 13.4%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #323 (Channel 16): Labels = δ, δ, θ, α, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #325 (Channel 16): Labels = δ, δ, δ, θ, γ | Group A: 93.4% vs Group B: 83.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #328 (Channel 16): Labels = δ, δ, δ, θ, θ | Group A: 96.7% vs Group B: 86.67% → GAP = 10.03%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #333 (Channel 16): Labels = α, θ, δ, δ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #353 (Channel 18): Labels = δ, δ, δ, θ, θ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #354 (Channel 18): Labels = α, δ, δ, δ, θ | Group A: 90.2% vs Group B: 68.33% → GAP = 21.87%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #355 (Channel 18): Labels = δ, δ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #359 (Channel 18): Labels = δ, δ, θ, θ, δ | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #360 (Channel 18): Labels = δ, δ, δ, θ, α | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl80_opm80_sth90.npy] Pattern #366 (Channel 18): Labels = γ, δ, δ, δ, δ | Group A: 98.4% vs Group B: 88.33% → GAP = 10.07%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #1 (Channel 0): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #4 (Channel 3): Labels = δ, δ, δ, δ, θ | Group A: 80.3% vs Group B: 70.0% → GAP = 10.3%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #5 (Channel 3): Labels = θ, δ, δ, δ, δ | Group A: 85.2% vs Group B: 66.67% → GAP = 18.53%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #7 (Channel 7): Labels = δ, δ, δ, δ, θ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #8 (Channel 7): Labels = δ, δ, δ, θ, δ | Group A: 83.6% vs Group B: 70.0% → GAP = 13.6%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #21 (Channel 18): Labels = θ, δ, δ, δ, δ | Group A: 88.5% vs Group B: 75.0% → GAP = 13.5%
+[ADHD_vs_CONTROL_stats_1s_5pattern_lbl90_opm90_sth80.npy] Pattern #23 (Channel 18): Labels = δ, δ, δ, δ, θ | Group A: 86.9% vs Group B: 65.0% → GAP = 21.9%
+[ADHD_vs_CONTROL_stats_1s_6pattern_lbl80_opm80_sth80.npy] Pattern #2 (Channel 2): Labels = δ, δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 55.0% → GAP = 25.3%
+[ADHD_vs_CONTROL_stats_1s_6pattern_lbl80_opm80_sth80.npy] Pattern #5 (Channel 7): Labels = δ, δ, δ, δ, θ, θ | Group A: 83.6% vs Group B: 63.33% → GAP = 20.27%
+[ADHD_vs_CONTROL_stats_1s_6pattern_lbl80_opm80_sth80.npy] Pattern #28 (Channel 15): Labels = α, δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_1s_6pattern_lbl80_opm80_sth80.npy] Pattern #33 (Channel 18): Labels = θ, δ, δ, δ, δ, δ | Group A: 86.9% vs Group B: 65.0% → GAP = 21.9%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #1 (Channel 0): Labels = δ, δ, θ, δ, δ | Group A: 83.6% vs Group B: 66.67% → GAP = 16.93%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #2 (Channel 0): Labels = δ, δ, α, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #4 (Channel 0): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 63.33% → GAP = 16.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #5 (Channel 0): Labels = δ, δ, β, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #23 (Channel 2): Labels = α, δ, δ, δ, δ | Group A: 80.3% vs Group B: 65.0% → GAP = 15.3%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #24 (Channel 2): Labels = δ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #25 (Channel 2): Labels = δ, δ, δ, δ, θ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #27 (Channel 2): Labels = δ, δ, δ, δ, α | Group A: 85.2% vs Group B: 63.33% → GAP = 21.87%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #30 (Channel 2): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 58.33% → GAP = 23.67%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #33 (Channel 3): Labels = δ, δ, δ, θ, θ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #49 (Channel 5): Labels = θ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #55 (Channel 6): Labels = δ, δ, δ, δ, α | Group A: 80.3% vs Group B: 91.67% → GAP = 11.37%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #59 (Channel 8): Labels = α, δ, δ, δ, δ | Group A: 91.8% vs Group B: 80.0% → GAP = 11.8%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #61 (Channel 8): Labels = δ, δ, δ, α, δ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #63 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 88.5% vs Group B: 76.67% → GAP = 11.83%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #64 (Channel 8): Labels = θ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #66 (Channel 8): Labels = δ, δ, δ, θ, δ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #68 (Channel 8): Labels = θ, δ, δ, δ, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #69 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 90.2% vs Group B: 78.33% → GAP = 11.87%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #72 (Channel 8): Labels = β, δ, δ, δ, δ | Group A: 93.4% vs Group B: 76.67% → GAP = 16.73%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #73 (Channel 8): Labels = δ, δ, δ, δ, β | Group A: 90.2% vs Group B: 80.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #81 (Channel 10): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #83 (Channel 10): Labels = δ, α, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #85 (Channel 10): Labels = θ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #86 (Channel 10): Labels = δ, δ, β, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #87 (Channel 10): Labels = δ, β, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #88 (Channel 10): Labels = β, δ, δ, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #90 (Channel 10): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #91 (Channel 10): Labels = δ, δ, α, δ, δ | Group A: 82.0% vs Group B: 70.0% → GAP = 12.0%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #93 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #100 (Channel 11): Labels = δ, δ, δ, δ, θ | Group A: 85.2% vs Group B: 71.67% → GAP = 13.53%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #109 (Channel 11): Labels = δ, δ, δ, θ, δ | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #114 (Channel 11): Labels = δ, δ, δ, δ, β | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #116 (Channel 11): Labels = δ, δ, δ, δ, α | Group A: 88.5% vs Group B: 71.67% → GAP = 16.83%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #131 (Channel 13): Labels = δ, δ, δ, α, δ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #164 (Channel 16): Labels = δ, δ, δ, δ, β | Group A: 86.9% vs Group B: 76.67% → GAP = 10.23%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #168 (Channel 16): Labels = α, δ, δ, δ, δ | Group A: 85.2% vs Group B: 70.0% → GAP = 15.2%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #169 (Channel 16): Labels = θ, δ, δ, δ, δ | Group A: 80.3% vs Group B: 68.33% → GAP = 11.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #171 (Channel 17): Labels = δ, δ, δ, δ, δ | Group A: 83.6% vs Group B: 73.33% → GAP = 10.27%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #173 (Channel 17): Labels = α, δ, δ, δ, δ | Group A: 86.9% vs Group B: 75.0% → GAP = 11.9%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #174 (Channel 17): Labels = δ, δ, δ, δ, θ | Group A: 88.5% vs Group B: 78.33% → GAP = 10.17%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #178 (Channel 17): Labels = δ, δ, δ, δ, β | Group A: 85.2% vs Group B: 75.0% → GAP = 10.2%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #181 (Channel 17): Labels = β, δ, δ, δ, δ | Group A: 82.0% vs Group B: 71.67% → GAP = 10.33%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #184 (Channel 18): Labels = δ, θ, δ, δ, δ | Group A: 85.2% vs Group B: 68.33% → GAP = 16.87%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #188 (Channel 18): Labels = δ, δ, θ, δ, δ | Group A: 82.0% vs Group B: 68.33% → GAP = 13.67%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #189 (Channel 18): Labels = δ, α, δ, δ, δ | Group A: 80.3% vs Group B: 58.33% → GAP = 21.97%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #191 (Channel 18): Labels = δ, δ, α, δ, δ | Group A: 83.6% vs Group B: 71.67% → GAP = 11.93%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #194 (Channel 18): Labels = δ, δ, δ, θ, θ | Group A: 80.3% vs Group B: 66.67% → GAP = 13.63%
+[ADHD_vs_CONTROL_stats_2s_5pattern_lbl80_opm80_sth80.npy] Pattern #196 (Channel 18): Labels = δ, δ, β, δ, δ | Group A: 82.0% vs Group B: 65.0% → GAP = 17.0%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #47 (Channel 0): Labels = β, δ, δ, δ, δ | Group A: 80.0% vs Group B: 90.16% → GAP = 10.16%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #66 (Channel 1): Labels = δ, δ, θ, δ, δ | Group A: 88.3% vs Group B: 73.77% → GAP = 14.53%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #79 (Channel 1): Labels = δ, δ, δ, θ, θ | Group A: 95.0% vs Group B: 83.61% → GAP = 11.39%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #95 (Channel 1): Labels = δ, δ, δ, δ, α | Group A: 88.3% vs Group B: 75.41% → GAP = 12.89%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #154 (Channel 2): Labels = θ, δ, δ, δ, δ | Group A: 85.0% vs Group B: 95.08% → GAP = 10.08%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #194 (Channel 3): Labels = β, δ, δ, δ, δ | Group A: 86.7% vs Group B: 96.72% → GAP = 10.02%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #197 (Channel 3): Labels = δ, δ, δ, δ, δ | Group A: 90.0% vs Group B: 77.05% → GAP = 12.95%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #200 (Channel 3): Labels = δ, δ, δ, δ, δ | Group A: 95.0% vs Group B: 83.61% → GAP = 11.39%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #205 (Channel 3): Labels = δ, δ, β, δ, θ | Group A: 85.0% vs Group B: 72.13% → GAP = 12.87%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #207 (Channel 3): Labels = δ, δ, θ, δ, θ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #212 (Channel 3): Labels = γ, θ, δ, δ, δ | Group A: 80.0% vs Group B: 90.16% → GAP = 10.16%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #218 (Channel 4): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #222 (Channel 4): Labels = δ, δ, δ, δ, δ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #223 (Channel 4): Labels = δ, δ, δ, δ, θ | Group A: 85.0% vs Group B: 72.13% → GAP = 12.87%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #227 (Channel 4): Labels = δ, δ, δ, θ, δ | Group A: 95.0% vs Group B: 80.33% → GAP = 14.67%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #229 (Channel 4): Labels = δ, θ, δ, δ, δ | Group A: 95.0% vs Group B: 78.69% → GAP = 16.31%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #233 (Channel 4): Labels = θ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 68.85% → GAP = 11.15%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #235 (Channel 4): Labels = δ, δ, δ, δ, δ | Group A: 93.3% vs Group B: 75.41% → GAP = 17.89%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #236 (Channel 4): Labels = δ, δ, δ, δ, θ | Group A: 90.0% vs Group B: 78.69% → GAP = 11.31%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #237 (Channel 4): Labels = δ, δ, δ, δ, θ | Group A: 81.7% vs Group B: 68.85% → GAP = 12.85%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #241 (Channel 4): Labels = δ, δ, δ, θ, δ | Group A: 95.0% vs Group B: 75.41% → GAP = 19.59%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #243 (Channel 4): Labels = δ, δ, δ, θ, θ | Group A: 90.0% vs Group B: 77.05% → GAP = 12.95%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #245 (Channel 4): Labels = δ, θ, δ, δ, θ | Group A: 80.0% vs Group B: 65.57% → GAP = 14.43%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #246 (Channel 4): Labels = θ, δ, δ, δ, θ | Group A: 86.7% vs Group B: 75.41% → GAP = 11.29%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #250 (Channel 4): Labels = δ, δ, δ, θ, δ | Group A: 85.0% vs Group B: 62.3% → GAP = 22.7%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #254 (Channel 4): Labels = δ, δ, θ, δ, α | Group A: 80.0% vs Group B: 68.85% → GAP = 11.15%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #256 (Channel 4): Labels = δ, δ, δ, α, δ | Group A: 88.3% vs Group B: 73.77% → GAP = 14.53%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #262 (Channel 4): Labels = δ, β, δ, δ, δ | Group A: 93.3% vs Group B: 80.33% → GAP = 12.97%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #266 (Channel 4): Labels = θ, δ, δ, δ, α | Group A: 80.0% vs Group B: 62.3% → GAP = 17.7%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #270 (Channel 4): Labels = δ, δ, δ, θ, δ | Group A: 83.3% vs Group B: 63.93% → GAP = 19.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #271 (Channel 4): Labels = δ, δ, δ, δ, θ | Group A: 81.7% vs Group B: 67.21% → GAP = 14.49%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #272 (Channel 4): Labels = δ, δ, δ, δ, θ | Group A: 88.3% vs Group B: 75.41% → GAP = 12.89%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #275 (Channel 4): Labels = θ, δ, δ, δ, θ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #278 (Channel 4): Labels = δ, δ, δ, α, δ | Group A: 81.7% vs Group B: 63.93% → GAP = 17.77%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #291 (Channel 4): Labels = δ, δ, δ, γ, δ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #293 (Channel 4): Labels = δ, γ, δ, δ, δ | Group A: 93.3% vs Group B: 75.41% → GAP = 17.89%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #308 (Channel 5): Labels = θ, δ, δ, δ, θ | Group A: 93.3% vs Group B: 81.97% → GAP = 11.33%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #346 (Channel 5): Labels = α, δ, δ, δ, δ | Group A: 85.0% vs Group B: 95.08% → GAP = 10.08%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #349 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 60.66% → GAP = 19.34%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #350 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 95.0% vs Group B: 81.97% → GAP = 13.03%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #354 (Channel 6): Labels = δ, δ, δ, θ, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #355 (Channel 6): Labels = δ, θ, δ, δ, δ | Group A: 80.0% vs Group B: 67.21% → GAP = 12.79%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #356 (Channel 6): Labels = θ, δ, δ, δ, δ | Group A: 95.0% vs Group B: 81.97% → GAP = 13.03%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #363 (Channel 6): Labels = θ, θ, δ, δ, δ | Group A: 85.0% vs Group B: 73.77% → GAP = 11.23%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #364 (Channel 6): Labels = θ, δ, δ, α, δ | Group A: 85.0% vs Group B: 68.85% → GAP = 16.15%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #370 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 93.3% vs Group B: 81.97% → GAP = 11.33%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #371 (Channel 6): Labels = δ, δ, δ, δ, θ | Group A: 98.3% vs Group B: 85.25% → GAP = 13.05%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #372 (Channel 6): Labels = δ, δ, δ, δ, θ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #377 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 88.3% vs Group B: 77.05% → GAP = 11.25%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #381 (Channel 6): Labels = θ, δ, δ, θ, δ | Group A: 86.7% vs Group B: 73.77% → GAP = 12.93%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #385 (Channel 6): Labels = δ, δ, δ, δ, θ | Group A: 83.3% vs Group B: 68.85% → GAP = 14.45%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #387 (Channel 6): Labels = δ, δ, δ, δ, δ | Group A: 93.3% vs Group B: 80.33% → GAP = 12.97%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #394 (Channel 6): Labels = β, δ, δ, δ, δ | Group A: 96.7% vs Group B: 83.61% → GAP = 13.09%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #400 (Channel 6): Labels = δ, δ, δ, δ, α | Group A: 81.7% vs Group B: 62.3% → GAP = 19.4%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #404 (Channel 6): Labels = δ, δ, δ, δ, β | Group A: 81.7% vs Group B: 62.3% → GAP = 19.4%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #407 (Channel 6): Labels = δ, δ, θ, δ, δ | Group A: 85.0% vs Group B: 70.49% → GAP = 14.51%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #409 (Channel 6): Labels = δ, δ, δ, δ, α | Group A: 85.0% vs Group B: 67.21% → GAP = 17.79%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #411 (Channel 6): Labels = β, δ, δ, δ, δ | Group A: 86.7% vs Group B: 73.77% → GAP = 12.93%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #418 (Channel 6): Labels = δ, δ, δ, δ, γ | Group A: 95.0% vs Group B: 83.61% → GAP = 11.39%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #419 (Channel 6): Labels = δ, δ, δ, γ, δ | Group A: 95.0% vs Group B: 80.33% → GAP = 14.67%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #420 (Channel 6): Labels = δ, δ, δ, δ, γ | Group A: 80.0% vs Group B: 60.66% → GAP = 19.34%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #433 (Channel 7): Labels = θ, δ, δ, δ, δ | Group A: 83.3% vs Group B: 93.44% → GAP = 10.14%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #475 (Channel 7): Labels = δ, δ, δ, δ, β | Group A: 88.3% vs Group B: 70.49% → GAP = 17.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #478 (Channel 7): Labels = δ, δ, δ, δ, β | Group A: 81.7% vs Group B: 70.49% → GAP = 11.21%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #488 (Channel 8): Labels = α, θ, δ, δ, δ | Group A: 81.7% vs Group B: 95.08% → GAP = 13.38%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #491 (Channel 8): Labels = δ, δ, δ, θ, δ | Group A: 86.7% vs Group B: 96.72% → GAP = 10.02%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #492 (Channel 8): Labels = δ, δ, δ, α, θ | Group A: 83.3% vs Group B: 93.44% → GAP = 10.14%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #503 (Channel 8): Labels = δ, δ, δ, δ, δ | Group A: 81.7% vs Group B: 93.44% → GAP = 11.74%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #516 (Channel 8): Labels = β, δ, δ, δ, δ | Group A: 80.0% vs Group B: 90.16% → GAP = 10.16%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #531 (Channel 8): Labels = δ, δ, δ, γ, δ | Group A: 81.7% vs Group B: 93.44% → GAP = 11.74%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #545 (Channel 9): Labels = δ, δ, δ, θ, δ | Group A: 88.3% vs Group B: 77.05% → GAP = 11.25%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #547 (Channel 9): Labels = δ, δ, θ, δ, δ | Group A: 81.7% vs Group B: 63.93% → GAP = 17.77%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #548 (Channel 9): Labels = θ, θ, δ, δ, δ | Group A: 81.7% vs Group B: 91.8% → GAP = 10.1%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #563 (Channel 9): Labels = α, δ, δ, δ, θ | Group A: 88.3% vs Group B: 77.05% → GAP = 11.25%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #629 (Channel 10): Labels = δ, δ, θ, θ, α | Group A: 86.7% vs Group B: 72.13% → GAP = 14.57%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #650 (Channel 11): Labels = α, δ, δ, δ, δ | Group A: 88.3% vs Group B: 73.77% → GAP = 14.53%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #651 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 96.7% vs Group B: 83.61% → GAP = 13.09%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #652 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 96.7% vs Group B: 81.97% → GAP = 14.73%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #668 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 85.0% vs Group B: 73.77% → GAP = 11.23%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #671 (Channel 11): Labels = δ, δ, θ, δ, δ | Group A: 83.3% vs Group B: 68.85% → GAP = 14.45%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #673 (Channel 11): Labels = δ, δ, δ, α, δ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #681 (Channel 11): Labels = θ, δ, δ, δ, δ | Group A: 90.0% vs Group B: 75.41% → GAP = 14.59%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #684 (Channel 11): Labels = δ, δ, δ, α, δ | Group A: 83.3% vs Group B: 72.13% → GAP = 11.17%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #695 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 90.0% vs Group B: 75.41% → GAP = 14.59%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #700 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 86.7% vs Group B: 67.21% → GAP = 19.49%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #708 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #711 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 91.7% vs Group B: 78.69% → GAP = 13.01%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #718 (Channel 11): Labels = δ, δ, δ, θ, δ | Group A: 83.3% vs Group B: 67.21% → GAP = 16.09%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #719 (Channel 11): Labels = θ, δ, δ, δ, δ | Group A: 100.0% vs Group B: 88.52% → GAP = 11.48%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #723 (Channel 11): Labels = δ, δ, θ, δ, δ | Group A: 95.0% vs Group B: 81.97% → GAP = 13.03%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #724 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #729 (Channel 11): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 67.21% → GAP = 12.79%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #740 (Channel 11): Labels = δ, β, δ, δ, δ | Group A: 81.7% vs Group B: 70.49% → GAP = 11.21%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #742 (Channel 11): Labels = β, δ, δ, δ, δ | Group A: 86.7% vs Group B: 72.13% → GAP = 14.57%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #756 (Channel 11): Labels = δ, δ, δ, δ, β | Group A: 96.7% vs Group B: 85.25% → GAP = 11.45%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #761 (Channel 11): Labels = δ, δ, β, δ, δ | Group A: 86.7% vs Group B: 72.13% → GAP = 14.57%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #765 (Channel 11): Labels = δ, δ, β, δ, δ | Group A: 91.7% vs Group B: 78.69% → GAP = 13.01%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #766 (Channel 11): Labels = δ, δ, δ, β, δ | Group A: 80.0% vs Group B: 67.21% → GAP = 12.79%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #772 (Channel 11): Labels = δ, δ, δ, β, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #773 (Channel 11): Labels = δ, δ, α, δ, δ | Group A: 93.3% vs Group B: 80.33% → GAP = 12.97%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #779 (Channel 12): Labels = δ, θ, δ, δ, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #780 (Channel 12): Labels = δ, δ, θ, δ, θ | Group A: 80.0% vs Group B: 91.8% → GAP = 11.8%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #781 (Channel 12): Labels = δ, α, δ, δ, δ | Group A: 83.3% vs Group B: 72.13% → GAP = 11.17%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #790 (Channel 12): Labels = δ, δ, δ, δ, α | Group A: 80.0% vs Group B: 65.57% → GAP = 14.43%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #800 (Channel 12): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 68.85% → GAP = 11.15%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #810 (Channel 12): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #811 (Channel 12): Labels = δ, δ, δ, θ, δ | Group A: 90.0% vs Group B: 75.41% → GAP = 14.59%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #818 (Channel 12): Labels = θ, δ, δ, δ, θ | Group A: 83.3% vs Group B: 96.72% → GAP = 13.42%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #819 (Channel 12): Labels = δ, δ, δ, β, δ | Group A: 85.0% vs Group B: 95.08% → GAP = 10.08%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #824 (Channel 12): Labels = δ, δ, δ, δ, β | Group A: 85.0% vs Group B: 67.21% → GAP = 17.79%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #827 (Channel 12): Labels = δ, δ, δ, δ, γ | Group A: 80.0% vs Group B: 63.93% → GAP = 16.07%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #846 (Channel 13): Labels = δ, δ, δ, θ, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #858 (Channel 13): Labels = δ, θ, δ, δ, θ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #876 (Channel 13): Labels = δ, δ, δ, δ, α | Group A: 83.3% vs Group B: 68.85% → GAP = 14.45%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #877 (Channel 13): Labels = δ, δ, α, δ, δ | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #883 (Channel 14): Labels = δ, θ, θ, δ, δ | Group A: 83.3% vs Group B: 63.93% → GAP = 19.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #894 (Channel 14): Labels = δ, δ, δ, δ, δ | Group A: 80.0% vs Group B: 65.57% → GAP = 14.43%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #897 (Channel 14): Labels = θ, δ, δ, θ, δ | Group A: 81.7% vs Group B: 67.21% → GAP = 14.49%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #905 (Channel 14): Labels = δ, δ, δ, δ, δ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #909 (Channel 14): Labels = δ, δ, δ, δ, α | Group A: 83.3% vs Group B: 70.49% → GAP = 12.81%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #916 (Channel 14): Labels = δ, δ, θ, δ, δ | Group A: 91.7% vs Group B: 72.13% → GAP = 19.57%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #929 (Channel 14): Labels = θ, δ, δ, δ, θ | Group A: 85.0% vs Group B: 72.13% → GAP = 12.87%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #940 (Channel 14): Labels = δ, δ, δ, β, δ | Group A: 96.7% vs Group B: 85.25% → GAP = 11.45%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #946 (Channel 14): Labels = δ, δ, δ, γ, δ | Group A: 91.7% vs Group B: 80.33% → GAP = 11.37%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #947 (Channel 15): Labels = θ, δ, δ, θ, δ | Group A: 85.0% vs Group B: 72.13% → GAP = 12.87%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #974 (Channel 15): Labels = δ, δ, θ, θ, θ | Group A: 86.7% vs Group B: 70.49% → GAP = 16.21%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #979 (Channel 15): Labels = θ, θ, δ, δ, δ | Group A: 88.3% vs Group B: 75.41% → GAP = 12.89%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1007 (Channel 15): Labels = θ, δ, δ, δ, δ | Group A: 86.7% vs Group B: 75.41% → GAP = 11.29%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1023 (Channel 15): Labels = δ, δ, δ, δ, α | Group A: 80.0% vs Group B: 93.44% → GAP = 13.44%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1054 (Channel 16): Labels = δ, δ, δ, θ, θ | Group A: 86.7% vs Group B: 96.72% → GAP = 10.02%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1074 (Channel 16): Labels = δ, δ, θ, δ, β | Group A: 83.3% vs Group B: 65.57% → GAP = 17.73%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1095 (Channel 17): Labels = δ, δ, θ, δ, θ | Group A: 90.0% vs Group B: 78.69% → GAP = 11.31%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1122 (Channel 18): Labels = δ, δ, δ, θ, θ | Group A: 88.3% vs Group B: 98.36% → GAP = 10.06%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1126 (Channel 18): Labels = δ, δ, θ, θ, δ | Group A: 80.0% vs Group B: 90.16% → GAP = 10.16%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1136 (Channel 18): Labels = δ, δ, δ, θ, α | Group A: 88.3% vs Group B: 98.36% → GAP = 10.06%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1145 (Channel 18): Labels = δ, δ, δ, δ, δ | Group A: 88.3% vs Group B: 98.36% → GAP = 10.06%
+[CONTROL_vs_ADHD_stats_1s_5pattern_lbl80_opm80_sth80.npy] Pattern #1158 (Channel 18): Labels = γ, δ, δ, δ, δ | Group A: 88.3% vs Group B: 98.36% → GAP = 10.06%
