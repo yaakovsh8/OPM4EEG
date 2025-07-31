@@ -2,7 +2,62 @@
 
 # 🧠 Order Pattern Matching for ADHD analysis using EEG waves
 
-## Overview
+# Accessing External Project Files
+
+Due to GitHub’s 25 MB file size limit, large project assets are hosted on Mega.nz. Follow the steps below to download, extract, and integrate them into this repository.
+
+---
+
+## 1. Download from Mega.nz
+
+1. Open your web browser and navigate to:
+
+   > [https://mega.nz/folder/nQxinQZA#YTR33\_RAgW5PNK3yTuYVEQ](https://mega.nz/folder/nQxinQZA#YTR33_RAgW5PNK3yTuYVEQ)
+
+2. Click **Download** (or **Download as ZIP**) to download the entire folder as a ZIP archive.
+
+3. Wait for the download to complete.
+
+## 2. Extract and Place Files
+
+1. Locate the downloaded ZIP file (usually in your **Downloads** folder).
+2. Right-click the ZIP file and choose **Extract All...** (or use your preferred extraction tool).
+3. When prompted for the destination, select a folder named **OPM4EEG\_Project\_files** at the root of this repository:
+
+   ```
+   <path-to-your-repo>/OPM4EEG_Project_files/
+   ```
+
+   After extraction, the folder structure should resemble:
+
+   ```plaintext
+   OPM4EEG_Project_files/
+   ├── OPM4EEG.zip
+   └── (other files and folders)
+   ```
+
+## 3. Integrate into the Project
+
+* Ensure the **OPM4EEG\_Project\_files** folder is located in the root of the cloned repository before running any scripts or the installer.
+* The installer (`OPM4EEG_Approach_1_Installer.exe`) will automatically detect and include files from this directory.
+
+## 4. External Files Contents
+
+Inside **OPM4EEG\_Project\_files**, you will find:
+
+* **OPM4EEG.zip** – the complete codebase, resources, and data.
+* Additional documentation (PDFs, user guides), video tutorials, and installer executable.
+
+## 5. Important Notes
+
+* Do **not** rename or reorganize any files or folders, as scripts and the installer rely on fixed paths.
+* If you need to update or replace files, extract them again into the same directory structure.
+
+---
+
+You are now ready to install and run the project using the provided installer or scripts. Good luck with your analysis and development!
+
+## Overview 
 
 This capstone project explores whether recurring **EEG waveform patterns** can distinguish between children diagnosed with **ADHD** and a control group of neurotypical children.
 
