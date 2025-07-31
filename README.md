@@ -1,5 +1,3 @@
-בהתבסס על קובץ המחקר שצירפת, הנה נוסח אינטראקטיבי ומדויק ל־`README.md` לפרויקט שלך ב־GitHub:
-
 ---
 
 # 🧠 Order Pattern Matching for ADHD analysis using EEG waves
